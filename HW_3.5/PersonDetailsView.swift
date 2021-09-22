@@ -22,7 +22,6 @@ struct PersonDetailsView: View {
 
 struct PersonDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        let persons = Person.getPerson()
         
         PersonDetailsView(person: persons[0])
     }
